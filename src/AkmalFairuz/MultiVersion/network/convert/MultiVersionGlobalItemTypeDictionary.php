@@ -28,6 +28,8 @@ final class MultiVersionGlobalItemTypeDictionary {
 		ProtocolConstants::BEDROCK_1_17_30 => "_1_17_30",
 		ProtocolConstants::BEDROCK_1_17_40 => "_1_17_40",
 		ProtocolConstants::BEDROCK_1_18_0 => "_1_18_0",
+		ProtocolConstants::BEDROCK_1_18_10 => "_1_18_10",
+		ProtocolConstants::BEDROCK_1_18_30 => "_1_18_30",
 	];
 
 	private static function make() : self{
