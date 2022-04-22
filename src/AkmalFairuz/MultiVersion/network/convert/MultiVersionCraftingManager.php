@@ -38,6 +38,8 @@ class MultiVersionCraftingManager extends CraftingManager{
 	private $caches = [];
 
     const PROTOCOL = [
+	ProtocolConstants::BEDROCK_1_18_30,
+	ProtocolConstants::BEDROCK_1_18_10,
         ProtocolConstants::BEDROCK_1_18_0,
         ProtocolConstants::BEDROCK_1_17_40,
         ProtocolConstants::BEDROCK_1_17_30,
